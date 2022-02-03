@@ -41,3 +41,14 @@ let baseUrl = 'localhost/taxwebapp/country';
 const weeksInYear = Math.floor(365/7); //Calculate no. of weeks
 const daysLeftOver = 365 % 7; //Calculate no. of days
 console.log("A year has " + weeksInYear + " weeks and " + daysLeftOver + " days");
+
+
+//Assignment Operators
+// += addition assignment
+// -= subtraction assignment
+// *= multiplication assignment
+// /= division assignment
+let number = 100;
+number = number + 10;
+number += 10;
+console.log(number);
