@@ -42,6 +42,7 @@ const weeksInYear = Math.floor(365/7); //Calculate no. of weeks
 const daysLeftOver = 365 % 7; //Calculate no. of days
 console.log("A year has " + weeksInYear + " weeks and " + daysLeftOver + " days");
 
+
 //Assignment Operators
 // += addition assignment
 // -= subtraction assignment
