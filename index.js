@@ -41,3 +41,16 @@ let baseUrl = 'localhost/taxwebapp/country';
 const weeksInYear = Math.floor(365/7); //Calculate no. of weeks
 const daysLeftOver = 365 % 7; //Calculate no. of days
 console.log("A year has " + weeksInYear + " weeks and " + daysLeftOver + " days");
+//Assignment Operators
+//An assignment operator assigns a value to its left operand based on the value of its right operand. Here are some of them:
+
+// += addition assignment
+// -= subtraction assignment
+// *= multiplication assignment
+// /= division assignment
+let number = 100;
+//Both statements will add 10 
+number = number + 10;
+number += 10;
+console.log(number);
+
