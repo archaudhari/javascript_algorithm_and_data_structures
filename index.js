@@ -54,3 +54,34 @@ number = number + 10;
 number += 10;
 console.log(number);
 
+//String Interpolation : String interpolation is the process of evaluating string literals containing one or more 
+//placeholders (expressions, variables, etc).
+
+let age = 7;
+
+//String concatenation
+'Tommy is' + age + 'years old.';
+
+//String interpolation
+'Tommy is ${age} years old.';
+
+//Variables : Variables are used whenever there’s a need to store a piece of data.
+
+const currency = '$';
+let userIncome = 85000;
+
+console.log(currency + userIncome + ' is more than the average income.');
+
+//Undefined
+//undefined is a primitive JavaScript value that represents lack of defined value.
+
+var a;
+console.log(a);
+
+//Learn Javascript: Variables
+//A variable is a container for data that is stored in computer memory.
+
+let name1 = "Tammy";
+const found = false;
+var age1 = 3;
+console.log(name1, found, age1);
